@@ -1,0 +1,49 @@
+@charset "UTF-8";
+table.tabla-principal{
+	width: 100%;
+	border: 2px solid #2e3436;
+	table-layout:fixed;
+	font-size: 24px;
+	border-collapse: collapse;
+	margin: 50px;
+}
+
+table.tabla-principal thead{
+	background : #FFF;	
+}
+
+table.tabla-principal tbody{
+	background: linear-gradient(to bottom, #9e7ba826, #13aedf87);
+}
+
+table.tabla-principal > thead th:nth-child(1){
+	width: 15%;
+}
+
+table.tabla-principal > thead th:nth-child(2){
+	width: 15%;
+}
+
+table.tabla-principal > thead th:nth-child(3){
+	width: 15%;
+}
+
+table.tabla-principal th,
+table.tabla-principal td{
+	border : 2px solid #2e3436; 
+	padding : 5px 3px; /* espaciado entre columnas y filas/*
+}
+
+table.tabla-principal > tbody tr:nth-child(odd) > td { /*efecto zebra*/
+	background-color: rgba(0,0,0,0.15);
+}
+
+table.tabla-principal > tbody tr:nth-child(even) > td { /*efecto zebra*/
+	background-color: rgba(0,0,0,0.25);
+}
+
+
+table.tabla-principal > tbody tr:hover{
+	background-color: rgba(200,200,255,0.75); /* resalte el color de la columna cuando el cursor esta sobre ella*/
+}
+

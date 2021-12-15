@@ -1,0 +1,122 @@
+
+@charset "UTF-8";
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.titulo-de-pag {
+	color: rgb(77, 159, 152);
+	letter-spacing: 5px;
+}
+
+header{
+	background: #820e18;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+header nav ul{
+	list-style: none;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	
+}
+
+header nav ul li{
+	padding: 5px;
+}
+
+
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+main h1{
+	text-align: center;
+}
+
+.data{
+	margin: 40px;
+}
+
+.ubi{
+	margin: 30px;
+}
+.ofertas{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		gap: 10px;
+		margin: 50px 10px;
+}
+
+.compras{
+	border: 1px solid blue;	
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #d24c23bd;
+	border-radius: 30px;
+}
+
+.compras p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+button{
+	border-radius: 10px 15%;
+	width: 90px;
+	height: 30px;	
+	background: transparent;
+	border-color: #130e4dba;
+	cursor: pointer;
+}
+
+
+.contacto{
+	margin: 40px;
+}
+
+footer{
+	background: #39a5b7;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	
+}
+
+.footer:hover{
+	color : white;
+}
+
+
+
+body{
+	margin: 0;
+}
+
+
+
+
+.contacto{
+	display: inline-block;
+	
+}
+ 
+
+
+	
+a{
+	text-decoration: none;
+}
